@@ -1377,7 +1377,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 518644326}
+      - m_Target: {fileID: 2021394451}
         m_MethodName: buttonEMNoClick
         m_Mode: 1
         m_Arguments:
@@ -1598,33 +1598,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 652a98e2a6fabc74394495647a418312, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 929008064}
   eventMessage: {fileID: 1417239373}
-  battle: {fileID: 901269359}
+  map: {fileID: 929008064}
   UICanvas: {fileID: 626576583}
-  UISettings: {fileID: 1493761141}
+  battle: {fileID: 901269359}
   BlizzardMessage: {fileID: 229053667}
-  buttonEMYes: {fileID: 2051261047}
-  buttonEMNo: {fileID: 442867945}
-  LukeAC: {fileID: 8300000, guid: 73c1874268a3b4846bb8aa3e4c77b111, type: 3}
-  sldr: {fileID: 546366150}
-  tStrength: {fileID: 318642119}
-  tDexterity: {fileID: 1954852255}
-  tCute: {fileID: 1967710711}
-  battle_tile: {fileID: 1671630118}
   start_tile_x: 11
   start_tile_y: 9
   cur_tile_x: 11
   cur_tile_y: 9
-  hp: 0
-  hp_turn_count: 0
-  strength: 0
-  dexterity: 0
-  cute: 0
-  chihuahua: {fileID: 21300000, guid: 091ab6646412163418defa53065f34c6, type: 3}
-  hedhehog: {fileID: 21300000, guid: 20f29a37d959c0f42888f2051accba34, type: 3}
-  human: {fileID: 21300000, guid: 45ef7f1522f7b1f4586ee265cf5130ef, type: 3}
-  aSource: {fileID: 1944305398}
 --- !u!1 &525421292
 GameObject:
   m_ObjectHideFlags: 0
@@ -3920,7 +3902,7 @@ MonoBehaviour:
   sldrOpp: {fileID: 1940430594}
   log: {fileID: 926890077}
   battleEnd: {fileID: 1524354203}
-  pl: {fileID: 518644326}
+  pl: {fileID: 2021394451}
   human: {fileID: 21300000, guid: 45ef7f1522f7b1f4586ee265cf5130ef, type: 3}
   chihuahua: {fileID: 21300000, guid: 83344e057b89190469428f82aed3a051, type: 3}
   hedgehog: {fileID: 21300000, guid: 20f29a37d959c0f42888f2051accba34, type: 3}
@@ -4295,7 +4277,7 @@ MonoBehaviour:
   sldrOpp: {fileID: 1940430594}
   log: {fileID: 926890077}
   battleEnd: {fileID: 1524354203}
-  pl: {fileID: 518644326}
+  pl: {fileID: 2021394451}
   human: {fileID: 21300000, guid: 45ef7f1522f7b1f4586ee265cf5130ef, type: 3}
   chihuahua: {fileID: 21300000, guid: 83344e057b89190469428f82aed3a051, type: 3}
   hedgehog: {fileID: 21300000, guid: 20f29a37d959c0f42888f2051accba34, type: 3}
@@ -5432,7 +5414,7 @@ MonoBehaviour:
   sldrOpp: {fileID: 1940430594}
   log: {fileID: 926890077}
   battleEnd: {fileID: 1524354203}
-  pl: {fileID: 518644326}
+  pl: {fileID: 2021394451}
   human: {fileID: 21300000, guid: 45ef7f1522f7b1f4586ee265cf5130ef, type: 3}
   chihuahua: {fileID: 21300000, guid: 83344e057b89190469428f82aed3a051, type: 3}
   hedgehog: {fileID: 21300000, guid: 20f29a37d959c0f42888f2051accba34, type: 3}
@@ -6668,6 +6650,7 @@ GameObject:
   - component: {fileID: 2021394448}
   - component: {fileID: 2021394447}
   - component: {fileID: 2021394450}
+  - component: {fileID: 2021394451}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6752,6 +6735,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 518644321}
+--- !u!114 &2021394451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021394446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4821652a6bee7cb45a568919d7dc3151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  hp_turn_count: 0
+  strength: 0
+  dexterity: 0
+  cute: 0
+  battle_tile: {fileID: 1275832309}
+  map: {fileID: 929008064}
+  player: {fileID: 518644321}
+  eventMessage: {fileID: 1417239373}
+  battle: {fileID: 901269359}
+  BlizzardMessage: {fileID: 229053667}
+  UISettings: {fileID: 1493761141}
+  aSource: {fileID: 1944305398}
+  LukeAC: {fileID: 8300000, guid: 73c1874268a3b4846bb8aa3e4c77b111, type: 3}
+  chihuahua: {fileID: 21300000, guid: 83344e057b89190469428f82aed3a051, type: 3}
+  hedhehog: {fileID: 21300000, guid: 20f29a37d959c0f42888f2051accba34, type: 3}
+  human: {fileID: 21300000, guid: 45ef7f1522f7b1f4586ee265cf5130ef, type: 3}
+  sldr: {fileID: 546366150}
+  tStrength: {fileID: 318642119}
+  tDexterity: {fileID: 1954852255}
+  tCute: {fileID: 1967710711}
 --- !u!1 &2030195793
 GameObject:
   m_ObjectHideFlags: 0
@@ -7143,7 +7159,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 518644326}
+      - m_Target: {fileID: 2021394451}
         m_MethodName: buttonEMYesClick
         m_Mode: 1
         m_Arguments:

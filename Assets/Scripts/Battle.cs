@@ -16,7 +16,7 @@ public class Battle : MonoBehaviour
     public Slider sldrOpp;
     public Text log;
     public Text battleEnd;
-    public player pl;
+    public Game_manager pl;
     private Random rnd;
     public Sprite human;
     public Sprite chihuahua;
