@@ -3,3 +3,5 @@ A game about a corgi who is looking for his home. The game was made as part of t
 Game Design and Programmer: Oleg Pavlovski
 Art: Nikolay Kuznetsov
 Programmer: Grigory Belyaev
+
+![](https://github.com/ukirain/korgi/blob/master/Assets/Images/FinalScene.png?raw=true)
